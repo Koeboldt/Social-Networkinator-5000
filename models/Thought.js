@@ -26,7 +26,6 @@ const reactionSchema = new Schema(
 
 const thoughtSchema = new Schema(
     {
-        _id: true,
         thoughtText: {
             type: String,
             required: true
